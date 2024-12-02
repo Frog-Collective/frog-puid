@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://bed6pnnwc23l8"]
+
+[ext_resource type="PackedScene" uid="uid://cyqkdqsm3ht2y" path="res://tests/persistent_node_2d.tscn" id="1_t4ko3"]
+
+[node name="Test" type="Node2D"]
+
+[node name="PersistentNode2d#1" parent="." instance=ExtResource("1_t4ko3")]
+position = Vector2(85, 117)
+Puid = 1
+
+[node name="PersistentNode2d#2" parent="." instance=ExtResource("1_t4ko3")]
+position = Vector2(351, 118)
+Puid = 2
+
+[node name="PersistentNode2d#3" parent="." instance=ExtResource("1_t4ko3")]
+position = Vector2(620, 117)
+Puid = 3

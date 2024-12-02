@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtsmmdbrg6vrv"]
+
+[ext_resource type="PackedScene" uid="uid://bbmsjrxeu33ci" path="res://tests/persistent_node_3d.tscn" id="1_4rmah"]
+
+[node name="Test3d" type="Node3D"]
+
+[node name="PersistentNode3d#4" parent="." instance=ExtResource("1_4rmah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2472, 0, 0)
+Puid = 4
+
+[node name="PersistentNode3d#5" parent="." instance=ExtResource("1_4rmah")]
+Puid = 5
+
+[node name="PersistentNode3d#6" parent="." instance=ExtResource("1_4rmah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.29055)
+Puid = 6

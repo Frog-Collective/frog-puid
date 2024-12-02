@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbmsjrxeu33ci"]
+
+[ext_resource type="Script" path="res://addons/frog_puid/nodes/PersistentNode3D.cs" id="1_g0g1g"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_gdg0a"]
+
+[node name="PersistentNode3d" type="Node3D"]
+script = ExtResource("1_g0g1g")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_gdg0a")
