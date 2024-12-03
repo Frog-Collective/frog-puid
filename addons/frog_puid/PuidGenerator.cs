@@ -4,6 +4,8 @@ using Godot;
 
 namespace Frog;
 
+#if TOOLS
+
 public static class PuidGenerator
 {
     private const string nextPuidKey = "frog_collective/next_puid";
@@ -56,3 +58,5 @@ public static class PuidGenerator
         return false;
     }
 }
+
+#endif 
