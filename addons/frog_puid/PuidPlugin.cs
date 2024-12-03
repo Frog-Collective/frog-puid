@@ -9,7 +9,7 @@ public partial class PuidPlugin : EditorPlugin
     public override void _EnterTree()
     {
         Script persistentNode2DScript = GD.Load<Script>("res://addons/frog_puid/nodes/PersistentNode2D.cs");
-        Texture2D persistentNode2DIcon = GD.Load<Texture2D>("res://addons/frog_puid/icons/persistent_node_2D.svg");
+        Texture2D persistentNode2DIcon = GD.Load<Texture2D>("res://addons/frog_puid/icons/persistent_node_2d.svg");
         this.AddCustomType(nameof(PersistentNode2D), nameof(Node2D), persistentNode2DScript, persistentNode2DIcon);
 
         Script persistentNode3DScript = GD.Load<Script>("res://addons/frog_puid/nodes/PersistentNode3D.cs");
